@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('天苍苍nag野茫茫');
+    return view('welcome');
 });
