@@ -10,8 +10,8 @@
     
     <title>@yield('title', 'LaraBBS') - body-Blog</title>
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/default.css') }}" rel="stylesheet">
+    <link href="/public/css/app.css" rel="stylesheet">
+    <link href="/public/css/default.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,6 +29,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="/public/js/app.js"></script>
 </body>
 </html>
