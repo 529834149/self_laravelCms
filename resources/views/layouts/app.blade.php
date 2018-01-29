@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <title>@yield('title', 'LaraBBS') - body-Blog</title>
+    <title>@yield('title', 'body') - body-Blog</title>
     <!-- Styles -->
     <link href="/public/css/app.css" rel="stylesheet">
     <link href="/public/css/default.css" rel="stylesheet">
