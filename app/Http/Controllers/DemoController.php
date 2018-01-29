@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Session\Middleware\StartSession;
+use DB;
 class DemoController extends Controller
 {
    public function index()
    {
-       echo phpinfo();
+       dd(DB::connection()->getPdo());
    }
 }
