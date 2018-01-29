@@ -7,6 +7,7 @@ class DemoController extends Controller
 {
    public function index()
    {
+      phpinfo();die;
        dd(DB::connection()->getPdo());
    }
 }
