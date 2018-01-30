@@ -61,7 +61,7 @@
                             </div>
                         </div>
 
-                        <div class="form-group {{ $errors->has('captcha') ? ' has-error' : '' }}">
+<!--                        <div class="form-group {{ $errors->has('captcha') ? ' has-error' : '' }}">
                             <label for="captcha" class="col-md-4 control-label">验证码</label>
 
                             <div class="col-md-6">
@@ -75,7 +75,7 @@
                                     </span>
                                 @endif
                             </div>
-                        </div>
+                        </div>-->
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
