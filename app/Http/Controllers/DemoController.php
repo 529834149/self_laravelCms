@@ -7,8 +7,12 @@ class DemoController extends Controller
 {
    public function index()
    {
-        dump(DB::connection()->getPdo());
-        phpinfo();die;
+        $pdo = DB::connection('mysql')->getPdo();
+        echo '----------------------------------------';
+        $pdo1 = DB::connection('mysql')->getPdo();
+        dump($pdo);
+        dump($pdo1);
+//        phpinfo();die;
        
    }
 }
